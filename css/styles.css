@@ -379,6 +379,7 @@ h5 {
 }
 
 .form-input {
+  position: relative;
   margin-bottom: 10px;
   display: flex;
   text-align: left;
@@ -420,6 +421,15 @@ h5 {
   letter-spacing: 0.03em;
   margin-bottom: 30px;
   margin-top: 20px;
+}
+
+.input-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+
+  width: 15px;
+  height: 15px;
 }
 /* our strengths */
 
