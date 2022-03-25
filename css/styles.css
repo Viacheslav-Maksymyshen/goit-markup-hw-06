@@ -389,10 +389,17 @@ h5 {
 .form-input input {
   padding-top: 12px;
   padding-bottom: 12px;
+  padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
   resize: none;
+}
+.form-input:hover textarea,
+.form-input:hover input + .input-icon,
+.form-input:hover input {
+  fill: var(--blue-color);
+  border-color: var(--blue-color);
 }
 
 .form-input label {
@@ -412,10 +419,8 @@ h5 {
   margin-bottom: 12px;
 }
 
-.modal .order-button {
-}
-
 .policy {
+  padding-left: 20px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -426,10 +431,22 @@ h5 {
 .input-icon {
   position: absolute;
   left: 12px;
+  top: 49%;
+
+  width: 18px;
+  height: 18px;
+}
+
+.checkbox-icon {
+  position: absolute;
+  left: 12px;
   top: 50%;
 
   width: 15px;
-  height: 15px;
+  height: 16px;
+}
+.checkbox {
+  appearance: none;
 }
 /* our strengths */
 
