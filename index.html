@@ -67,8 +67,7 @@
           data-modal-open
           class="order-button"
           name="button_order"
-          type="button"
-        >
+          type="button">
           Заказать услугу
         </button>
         <div class="backdrop is-hidden" data-modal>
@@ -87,7 +86,6 @@
                   <use href="./images/icon.svg#icon-person-form"></use>
                 </svg>
               </div>
-
               <div class="form-input">
                 <label for="tel">Телефон</label>
                 <input type="tel" name="tel" id="tel" />
@@ -95,7 +93,6 @@
                   <use href="./images/icon.svg#icon-phone-form"></use>
                 </svg>
               </div>
-
               <div class="form-input">
                 <label for="email">Почта</label>
                 <input type="email" name="email" id="email" />
@@ -103,33 +100,20 @@
                   <use href="./images/icon.svg#icon-email-form"></use>
                 </svg>
               </div>
-              <div class="form-input">
+              <div class="form-input form-end">
                 <label for="feedback">Комментарий</label>
                 <textarea
                   name="feedback"
                   id="feedback"
                   rows="4"
-                  placeholder="Введите текст"
-                ></textarea>
+                  placeholder="Введите текст"></textarea>
               </div>
-
-              <div class="form-input policy">
-                <svg class="checkbox-icon">
-                  <use href="./images/icon.svg#icon-checkbox"></use>
-                </svg>
-                <input
-                  class="checkbox"
-                  type="checkbox"
-                  name="policy"
-                  id="policy"
-                />
-                <label for="policy"
-                  >Соглашаюсь с рассылкой и принимаю
-                  <a href="">Условия договора</a></label
-                >
-              </div>
-
-              <button class="order-button" type="submit">Отправить</button>
+              <label class="label-checkbox">
+                <input class="checkbox" type="checkbox" name="policy" />
+                <span class="checkbox-icon"></span>
+                <span class="label">Cоглашаюсь с рассылкой и принимаю
+                <a href=""> Условия договора</a></label></span>
+                <button class="order-button" type="submit">Отправить</button>
             </form>
           </div>
         </div>
@@ -460,9 +444,8 @@
       <div class="container">
         <ul class="footer-list list">
           <li class="item">
-            <a href="./index.html" class="logo"
-              ><span class="logo-span">Web</span>Studio</a
-            >
+            <a href="./index.html" class="logo">
+              <span class="logo-span">Web</span>Studio</a>
             <address class="address">
               <ul class="list">
                 <li class="list-address">
@@ -517,6 +500,24 @@
                   </svg>
                 </a>
               </li>
+            </ul>
+          </li>
+          <li class="item-form">
+             <form>
+                <p class="social-title">Подпишитесь на рассылку</p>
+            <ul class="footer-form list">
+              <li class="footer-item-form">
+                <label class="label-footer">
+                <input type="email" placeholder="E-mail">
+                </label>       
+                <button class="button-footer" type="submit">Подписаться
+                  <svg class="icon-button-footer">
+                    <use href="./images/icon.svg#icon-send"></use>
+                  </svg>
+                </button>        
+                </li>
+                </ul>
+              </form>
             </ul>
           </li>
         </ul>
